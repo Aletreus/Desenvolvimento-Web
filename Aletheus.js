@@ -1,3 +1,33 @@
+//Ex.1
+
+
+/*
+var num = parseInt(prompt('Insira o número: '))
+var divisoes = 0
+for(var c = 0;c <= num; c++){
+    if(num % c == 0){
+        divisoes++
+    }
+
+}
+if(divisoes != 2){
+    document.getElementById("primeiro").innerHTML=`O número ${num} não é primo.`
+}
+else{
+    document.getElementById("primeiro").innerHTML=`O número ${num} é primo.`
+}
+if(num % 2 == 0){
+    document.getElementById("segundo").innerHTML=`O número ${num} é par.`
+    }
+else{
+    document.getElementById("segundo").innerHTML=`O número ${num} é ímpar.`
+}
+
+
+
+
+
+
 //Ex.2
 
 /*
@@ -13,7 +43,14 @@ document.write(fibonacchi)
 
 //Ex.3
 
-/*var lista = [3, 8, 5, 9 ,2];
+
+var lista = [];
+var qt = parseInt(prompt('Insira a quantidade de números na lista: '))
+for(var c = 0; c < qt; c++){
+    n = parseInt(prompt("Digite um numero: "))
+    lista[c] = n
+}
+
 var auxiliar;
 for(var c = 0; c < lista.length; c++){
     for(var n = 0; n < lista.length; n++){
@@ -25,7 +62,7 @@ for(var c = 0; c < lista.length; c++){
     }
 }
 document.write(lista)
-*/
+
 //Ex.4
 /*
 var n1 = parseFloat(prompt('Insira o primeiro número: '))
@@ -53,7 +90,7 @@ if(esc == 5){
     }
 }
 document.write(`O resultado é ${resultado}.`)
-*/
+
 //Ex.5
 var nome = prompt('Insira o nome: ')
 var idade = parseInt(prompt('Insira a idade: '))
@@ -92,5 +129,4 @@ else{
     document.getElementById("quinto").innerHTML="O dado SALARIO está inválido.";
 }
 
-
-
+*/
