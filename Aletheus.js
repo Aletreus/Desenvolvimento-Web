@@ -43,7 +43,10 @@ document.write(fibonacchi)
 
 //Ex.3
 
-
+/*var auxi = prompt("")
+var lista = auxi.split(",")
+// OU:
+*/
 var lista = [];
 var qt = parseInt(prompt('Insira a quantidade de números na lista: '))
 for(var c = 0; c < qt; c++){
